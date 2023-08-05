@@ -123,8 +123,8 @@ export function Navbar() {
                     display: 'block', 
                     fontSize: '27px', 
                     transition: 'color 0.3s font-size 0.3s', 
-                    '&:hover': { color: 'darkblue', fontSize: '27.5px' } }}
-                >
+                    '&:hover': { color: 'darkblue' } 
+                  }}>
                     {page.title}
                 </Button>
                 ))}
