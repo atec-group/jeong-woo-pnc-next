@@ -1,7 +1,7 @@
 # (주)정우P&C
 
 <div align="center">
-<img src="public/>
+<img src="public/full-logo.svg" alt="jwpnc-logo.svg" width=300 height=300>
 
 ### 정우 P&C 회사 웹사이트
 
