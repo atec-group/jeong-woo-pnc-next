@@ -29,26 +29,26 @@ export function Navbar() {
     };
   
     return (
-      <AppBar position="static" color="transparent">
+      <AppBar position="static" color="transparent" sx={{ boxShadow: 'none' }}>
         <Container maxWidth="xl">
-          <Toolbar disableGutters sx={{ display: 'flex', alignItems: 'center' }}>
-          <Typography
-            noWrap
-            component="a"
-            href="/"
-            sx={{
-                mr: 2,
-                display: { xs: 'none', md: 'flex' },
-                fontFamily: 'monospace',
-                fontWeight: 700,
-                letterSpacing: '.3rem',
-                color: 'inherit',
-                textDecoration: 'none',
-                alignItems: 'center'
-            }}
-          >
-            <Image src='/full-logo.svg' alt='Jeongwoo P&C' width={325} height={75} />
-          </Typography>
+          <Toolbar disableGutters sx={{ display: 'flex', alignItems: 'center', }}>
+            <Typography
+              noWrap
+              component="a"
+              href="/"
+              sx={{
+                  mr: 2,
+                  display: { xs: 'none', md: 'flex' },
+                  fontFamily: 'monospace',
+                  fontWeight: 700,
+                  letterSpacing: '.3rem',
+                  color: 'inherit',
+                  textDecoration: 'none',
+                  alignItems: 'center'
+              }}
+            >
+              <Image src='/full-logo.svg' alt='Jeongwoo P&C' width={325} height={75} />
+            </Typography>
   
            <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' }}}>
               <IconButton
