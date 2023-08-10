@@ -29,8 +29,8 @@ export function Footer() {
                 </Typography>
                 <Box sx={{ flexGrow: 1, display: { md: 'flex', justifyContent: 'center' } }}>
                     <Typography noWrap sx={{ mr: 2, mx: 5 }}>
-                        주소. 경기도 평택시 청북읍 삼계4길 78-50 | 대표. OOO<br />
-                        전화. 031-682-0233 | 팩스. OOO-OOO-OOOO
+                        주소. 경기도 평택시 청북읍 삼계4길 78-50 | 대표. 유수철<br />
+                        전화. 031-682-0233 | 팩스. 031-683-0233
                     </Typography>
                     <Typography noWrap sx={{ mr: 2, mx: 5 }}>
                         Copyright © <b>JeongWoo P&C</b>. All rights reserved.
